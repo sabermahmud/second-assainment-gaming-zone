@@ -13,7 +13,7 @@
 }
 
 .nav-section {
-    /* width: 1440px; */
+    width: 100%;
     margin: 0 auto 30px;
     background: #FFF;
     box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.05);
@@ -29,7 +29,7 @@
 }
 
 .logo-img>img {
-    width:60px;
+    width: 60px;
 }
 
 .logo-name h1 {
@@ -69,7 +69,7 @@
     transition: .3s;
 }
 
-.manu-list>li:hover{
+.manu-list>li:hover {
     color: var(--primary-color);
 }
 
@@ -79,7 +79,82 @@
 }
 
 
-
-.fa-youtube{
+.fa-youtube {
     color: red;
+}
+
+/* banner section style start */
+.banner{
+    display: flex;
+    padding: 20px 20px;
+}
+
+.banner-content {
+    padding: 20px 10px;
+    width: 90%;
+    background-image: url(../images/Group\ 14.png);
+    background-repeat: no-repeat;
+    background-position: bottom left;
+}
+
+.banner-content>h4 {
+    color: #0B0223;
+    text-align: center;
+    font-size: 2.6rem;
+    font-weight: 600;
+}
+
+.banner-content>h1 {
+    text-align: center;
+    font-size: 5.2rem;
+    font-weight: 800;
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+
+}
+
+.game-feature {
+    display: flex;
+    justify-content: center;
+}
+
+.feature-icons>i {
+    display: block;
+    padding: 2px 5px 0;
+}
+
+.buttons{
+    text-align: center;
+    margin: 20px auto;
+    padding: 10px 15px;
+}
+
+.primary-btn {
+    color: #FFF;
+    font-weight: 500;
+    padding: 15px 30px;
+    align-items: center;
+    gap: 10px;
+    border-radius: 40px;
+    background: var(--primary-color);
+    border: none;
+}
+
+.blue-btn{
+    color: #FFF;
+    font-weight: 500;
+    padding: 15px 25px;
+    align-items: center;
+    gap: 10px;
+    border-radius: 40px;
+    background: var(--secondary-color);
+    border: none;
+}
+
+.banner-img>img{
+    width: 80%;
+    padding: 20px 40px;
+    margin: 15px 15px;
 }

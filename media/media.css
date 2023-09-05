@@ -1,5 +1,5 @@
 @media screen and (max-width: 576px) {
- .manu-list, .manubar, .nav-container {
+ .manu-list, .manubar, .nav-container, .banner {
         flex-direction: column;
         align-items: center;
         width: 100%;
@@ -13,6 +13,7 @@
 .logo{
     width: 100%;
     justify-content: center;
-}    
+}  
+
 
 }
