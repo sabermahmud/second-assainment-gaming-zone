@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@400;500;600;700;800;900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Work Sans', sans-serif;
+    font-size: 18px;
+}
+
+:root {
+    --primary-color: #FF42A5;
+    --secondary-color: #8758F1;
+}
+
+.nav-section {
+    /* width: 1440px; */
+    margin: 0 auto 30px;
+    background: #FFF;
+    box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.05);
+
+}
+
+.logo {
+    width: 50%;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    margin-right: 15px;
+}
+
+.logo-img>img {
+    width:60px;
+}
+
+.logo-name h1 {
+    color: var(--primary-color);
+    font-size: 2.5rem;
+    font-weight: 700;
+}
+
+.logo-part {
+    color: black;
+    font-size: 2.5rem;
+    font-weight: 700;
+}
+
+.nav-container {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.manubar {
+    width: 50%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.manu-list {
+    width: 50%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    list-style: none;
+}
+
+.manu-list>li {
+    transition: .3s;
+}
+
+.manu-list>li:hover{
+    color: var(--primary-color);
+}
+
+.manubar>button {
+    width: 50%;
+    padding: 5px 15px;
+}
+
+
+
+.fa-youtube{
+    color: red;
+}
