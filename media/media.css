@@ -37,6 +37,19 @@
         right:550px ;
     }
 
+    .option {
+        width: 160px;
+    }
+    
+    .option-img>img{
+        width: 30px;
+    }
+    
+    .option-name>p {
+        font-size: 15px;
+        font-weight: 600;
+    }
+
 
 }
 
@@ -70,4 +83,18 @@
         width: 80px;
     }
 
+    /* ****************** */
+    .option {
+
+        width: 150px;
+    }
+    
+    .option-img>img{
+        width: 30px;
+    }
+    
+    .option-name>p {
+        font-size: 14px;
+        font-weight: 400;
+    }
 }

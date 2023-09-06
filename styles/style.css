@@ -249,19 +249,54 @@
 .parent-image {
     position: relative;
 }
-.parent-image>img{
+
+.parent-image>img {
     width: 400px;
 }
 
 .child-image {
     position: absolute;
     width: 100px;
-    top:300px;
-    right:600px ;
+    top: 300px;
+    right: 600px;
 }
 
-.child-image>img{
+.child-image>img {
     width: 150px;
 }
 
 /* play instant section style end */
+
+
+
+.game-manu {
+    margin: 100px auto;
+    padding: 20px 40px;
+}
+
+.manu-options{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+}
+
+.option {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    text-align: center;
+    width: 250px;
+    border-radius: 50px;
+    background: #FFF;
+    box-shadow: 2px 2px 8px #a3a2a288;
+}
+
+
+.option-img>img{
+    width: 50px;
+}
+
+.option-name>p {
+    color: #0B0223;
+    font-weight: 600;
+}
