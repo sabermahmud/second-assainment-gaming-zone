@@ -221,15 +221,17 @@
 /* play instant section style start */
 
 .play-section {
-    width: 100%;
+    width: 80%;
     display: flex;
     align-items: center;
+    margin: 100px auto;
 }
 
 .game-content {
     width: 100%;
     align-items: center;
-    padding: 20px 60px;
+    padding: 20px 20px;
+    margin-top: 80px;
 }
 
 .game-heading {
@@ -244,6 +246,7 @@
 
 .game-img {
     width: 100%;
+    margin-left:40px;
 }
 
 .parent-image {
