@@ -199,9 +199,9 @@
     flex-wrap: wrap;
 }
 
-.game-cart{
+.game-cart {
     padding: 10px 10px;
-    margin: 20px auto ;
+    margin: 20px auto;
 }
 
 .cart-img {
@@ -215,3 +215,53 @@
     color: #534C64;
     font-weight: 500;
 }
+
+/*  online game section style end */
+
+/* play instant section style start */
+
+.play-section {
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.game-content {
+    width: 100%;
+    align-items: center;
+    padding: 20px 60px;
+}
+
+.game-heading {
+    text-align: center;
+    font-size: 2.5rem;
+    font-weight: 700;
+}
+
+.instant {
+    text-align: center;
+}
+
+.game-img {
+    width: 100%;
+}
+
+.parent-image {
+    position: relative;
+}
+.parent-image>img{
+    width: 400px;
+}
+
+.child-image {
+    position: absolute;
+    width: 100px;
+    top:300px;
+    right:600px ;
+}
+
+.child-image>img{
+    width: 150px;
+}
+
+/* play instant section style end */

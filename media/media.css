@@ -1,5 +1,5 @@
 @media screen and (max-width: 996px) {
-    .nav-container, .manubar, .manu-list{
+    .nav-container, .manubar, .manu-list, .play-section{
         flex-direction: column;
         margin-top: 10px;
     }
@@ -15,9 +15,29 @@
     .manubar>button{
         width: 100%;
         margin-top: 10px;
-        padding: 10px 30px;
+        padding: 10px 10px;
     }
-    
+
+
+
+    .game-content{
+        padding: 10px 0px;
+    }
+
+    .parent-image{
+        text-align: center;
+
+
+    }
+
+    .child-image {
+        position: absolute;
+        width: 100px;
+        top:270px;
+        right:550px ;
+    }
+
+
 }
 
 @media screen and (max-width: 576px) {
@@ -31,4 +51,23 @@
         padding: 10px 10px;
 
     }
+
+    .instant{
+        padding: 5px 10px;
+    }
+
+    .parent-image>img{
+        width: 280px;
+    }
+
+    .child-image {
+        position: absolute;
+        top:220px;
+        right:300px ;
+    }
+
+    .child-image>img{
+        width: 80px;
+    }
+
 }
