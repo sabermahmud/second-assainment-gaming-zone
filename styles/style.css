@@ -12,43 +12,42 @@
     --secondary-color: #8758F1;
 }
 
-.nav-section {
-    width: 100%;
+.nav-container {
+    padding: 10px 20px;
     margin: 0 auto 30px;
     background: #FFF;
     box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.05);
-
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
 }
 
+
 .logo {
-    width: 50%;
+    width: 100%;
     display: flex;
     align-items: center;
     gap: 5px;
-    margin-right: 15px;
+    margin-left: 10px;
 }
 
 .logo-img>img {
-    width: 60px;
+    width: 50px;
 }
 
 .logo-name h1 {
     color: var(--primary-color);
-    font-size: 2.5rem;
+    font-size: 2rem;
     font-weight: 700;
 }
 
 .logo-part {
     color: black;
-    font-size: 2.5rem;
+    font-size: 2rem;
     font-weight: 700;
 }
 
-.nav-container {
-    display: flex;
-    justify-content: space-evenly;
-    align-items: center;
-}
+
 
 .manubar {
     width: 50%;
@@ -83,30 +82,32 @@
     color: red;
 }
 
+/* navber section style end */
+
 /* banner section style start */
-.banner{
+.banner {
     display: flex;
     padding: 20px 20px;
 }
 
 .banner-content {
     padding: 20px 10px;
-    width: 90%;
+    width: 100%;
     background-image: url(../images/Group\ 14.png);
     background-repeat: no-repeat;
-    background-position: bottom left;
+    background-position: left;
 }
 
 .banner-content>h4 {
     color: #0B0223;
     text-align: center;
-    font-size: 2.6rem;
+    font-size: 2rem;
     font-weight: 600;
 }
 
 .banner-content>h1 {
     text-align: center;
-    font-size: 5.2rem;
+    font-size: 4rem;
     font-weight: 800;
     background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
     background-clip: text;
@@ -125,7 +126,7 @@
     padding: 2px 5px 0;
 }
 
-.buttons{
+.buttons {
     text-align: center;
     margin: 20px auto;
     padding: 10px 15px;
@@ -142,7 +143,7 @@
     border: none;
 }
 
-.blue-btn{
+.blue-btn {
     color: #FFF;
     font-weight: 500;
     padding: 15px 25px;
@@ -153,8 +154,64 @@
     border: none;
 }
 
-.banner-img>img{
-    width: 80%;
-    padding: 20px 40px;
-    margin: 15px 15px;
+.banner-img>img {
+    width: 100%;
+}
+
+/* banner section style end */
+
+/*  */
+
+/*  */
+
+/* online game section style start */
+
+.online-game-section {
+    text-align: center;
+    margin: 20px 15px;
+}
+
+.online-game-section>h3 {
+    color: #0B0223;
+    text-align: center;
+    font-size: 2.5rem;
+    font-weight: 700;
+}
+
+.heading-part {
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 2.5rem;
+    font-weight: 700;
+}
+
+.game-description {
+    color: #534C64;
+    text-align: center;
+    font-weight: 400;
+}
+
+.cart-container {
+    margin: 24px 15px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.game-cart{
+    padding: 10px 10px;
+    margin: 20px auto ;
+}
+
+.cart-img {
+    width: 300px;
+    height: 400px;
+}
+
+.cart-description {
+    width: 300px;
+    text-align: center;
+    color: #534C64;
+    font-weight: 500;
 }
