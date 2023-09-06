@@ -160,9 +160,13 @@
 
 /* banner section style end */
 
-/*  */
+/* we are gamer section style start */
+.gamer-content{
+    background-image: none;
+}
+/* we are gamer section style end */
 
-/*  */
+/* ******************************** */
 
 /* online game section style start */
 
@@ -303,6 +307,16 @@
     color: #0B0223;
     font-weight: 600;
 }
+/*  */
+
+/* careers section style start */
+.career{
+    background: var(--primary-color);
+}
+
+.career p, h1, button{
+    color: #FFF;
+} 
 
 /* ************************** */
 footer {
