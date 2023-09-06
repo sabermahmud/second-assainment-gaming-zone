@@ -314,9 +314,32 @@
     background: var(--primary-color);
 }
 
-.career p, h1, button{
-    color: #FFF;
+.career p, h1{
+    color: #FFF;   
 } 
+
+.career>.gamer-content>p{
+    margin-top: 30px;
+}
+
+#career-heading{
+    color: #FFF;
+    font-size: 2.5rem;
+    font-weight: 600;
+}
+
+.career-list-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 30px;
+}
+
+.career button{
+    color: var(--primary-color);
+    background: #FFF;
+    margin-top: 30px;
+}
 
 /* ************************** */
 footer {

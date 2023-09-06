@@ -50,6 +50,14 @@
         font-weight: 600;
     }
 
+    .career{
+        flex-direction: column;
+    }
+
+    .we-gamer{
+        flex-direction: column-reverse;
+    }
+
 
 }
 
@@ -82,6 +90,11 @@
     .child-image>img{
         width: 80px;
     }
+
+    .we-gamer{
+        flex-direction: column-reverse;
+    }
+
 
     /* ****************** */
     .option {
